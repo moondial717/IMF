@@ -319,6 +319,17 @@ A 部分與 D 部分可以不用執著於 `int i=1` 跟 `i++` ，這個範例就
 	HELLO!
 	HELLO!
 
+那麼一樣用一個範例來解釋吧：
+    
+	char total=0,n;
+	cin>>n;
+	while(n!=0)
+	{
+		total+=n%10;
+		n/=10;
+	}
+	cout<<total<<endl;
+
 ### while 迴圈範例
 
 #### 費氏數列
